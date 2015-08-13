@@ -1,0 +1,33 @@
+{
+  "name": "less-plugin-linter",
+  "version": "0.0.1",
+  "description": "LESS linter not CSS",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "less": "^2.5.1"
+  },
+  "peerDependencies": {
+    "less": "^2.0.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gobie/less-plugin-linter.git"
+  },
+  "keywords": [
+    "less",
+    "linter"
+  ],
+  "author": "Michal Brašna <michal.brasna@gmail.com> (https://github.com/Gobie)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gobie/less-plugin-linter/issues"
+  },
+  "homepage": "https://github.com/Gobie/less-plugin-linter#readme"
+}
