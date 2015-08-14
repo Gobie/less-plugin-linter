@@ -1,6 +1,6 @@
 {
   "name": "less-plugin-linter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "LESS linter not CSS",
   "main": "lib/index.js",
   "directories": {
