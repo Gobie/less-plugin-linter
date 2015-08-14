@@ -7,7 +7,7 @@ var less = require("less"),
 console.log("\n" + stylize("LESS - linter", 'underline') + "\n");
 
 lessTester.runTestSet(
-    {strictMath: true, relativeUrls: true, silent: true, plugins: [plugin] },
+    {strictMath: true, relativeUrls: true, silent: true, plugins: [new plugin] },
     "linter/");
 
 if (lessTester.finish) {
